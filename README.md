@@ -1,5 +1,8 @@
 # MotionOcean
 
+[![Build Status](https://travis-ci.org/brianpattison/motion-ocean.svg?branch=master)](https://travis-ci.org/brianpattison/motion-ocean)
+[![Code Climate](https://codeclimate.com/github/brianpattison/motion-ocean.png)](https://codeclimate.com/github/brianpattison/motion-ocean)
+
 MotionOcean is a [RubyMotion](ht) wrapper for the
 [DigitalOcean API v2.0](https://developers.digitalocean.com/v2/).
 
