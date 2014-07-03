@@ -1,0 +1,16 @@
+{
+  "ssh_keys":[
+    {
+      "id":12345,
+      "fingerprint":"1a:1b:1c:2a:2b:2c:3a:3b:3c:4a:4b:4c:5a:5b:5c:6a",
+      "public_key":"ssh-rsa ABCDEFGHIJKLMNOPQRSTUVWXYZ brian@brianpattison.com",
+      "name":"Brian's MacBook Pro"
+    },
+    {
+      "id":54321,
+      "fingerprint":"a6:c5:b5:a5:c4:b4:a4:c3:b3:a3:c2:b2:a2:c1:b1:a1",
+      "public_key":"ssh-rsa ZYXWVUTSRQPONMLKJIHGFEDCBA brian@brianpattison.com",
+      "name":"Brian's iMac"
+    }
+  ]
+}

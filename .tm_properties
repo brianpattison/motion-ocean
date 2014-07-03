@@ -1,0 +1,8 @@
+includeFiles = "{$includeFiles,.gitignore,.travis.yml}"
+excludeInFileChooser = "{$excludeInFileChooser,build,vendor/Pods}"
+excludeInFolderSearch = "{$excludeInFolderSearch,build,vendor/Pods}"
+
+softTabs = true
+tabSize = 2
+
+TM_STRIP_WHITESPACE_ON_SAVE = true

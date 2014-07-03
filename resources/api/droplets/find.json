@@ -1,0 +1,83 @@
+{
+  "droplet":{
+    "id":12345,
+    "name":"motion-ocean",
+    "region":{
+      "slug":"nyc2",
+      "name":"New York 2",
+      "sizes":[
+        "1gb",
+        "2gb",
+        "4gb",
+        "8gb",
+        "16gb",
+        "32gb",
+        "48gb",
+        "64gb",
+        "512mb"
+      ],
+      "available":true,
+      "features":[
+        "virtio",
+        "private_networking",
+        "backups"
+      ]
+    },
+    "image":{
+      "id":4261622,
+      "name":"Ruby on Rails on Ubuntu 14.04 (Nginx + Unicorn)",
+      "distribution":"Ubuntu",
+      "slug":"ruby-on-rails",
+      "public":true,
+      "regions":[
+        "nyc2",
+        "sgp1",
+        "nyc1",
+        "ams2",
+        "sfo1",
+        "ams1",
+        "lon1",
+        "nyc2"
+      ],
+      "created_at":"2014-06-11T05:04:03Z"
+    },
+    "size":{
+      "slug":"512mb",
+      "memory":512,
+      "vcpus":1,
+      "disk":20,
+      "transfer":1000,
+      "price_monthly":"5.0",
+      "price_hourly":"0.00744",
+      "regions":[
+        "nyc1",
+        "sgp1",
+        "ams1",
+        "ams2",
+        "sfo1",
+        "nyc2"
+      ]
+    },
+    "locked":false,
+    "status":"active",
+    "networks":{
+      "v4":[
+        {
+          "ip_address":"104.131.231.36",
+          "netmask":"255.255.224.0",
+          "gateway":"104.131.224.1",
+          "type":"public"
+        }
+      ],
+      "v6":[]
+    },
+    "kernel":{
+      "id":1396,
+      "name":"* Ubuntu 14.04 x64 vmlinuz-3.13.0-27-generic",
+      "version":"3.13.0-27-generic"
+    },
+    "backup_ids":[1, 2, 3],
+    "snapshot_ids":[4, 5, 6],
+    "action_ids":[7, 8, 9]
+  }
+}

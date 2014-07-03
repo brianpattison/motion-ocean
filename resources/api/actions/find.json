@@ -1,0 +1,12 @@
+{
+  "action":{
+    "id":12345,
+    "status":"completed",
+    "type":"power_off",
+    "started_at":"2014-06-29T16:20:06Z",
+    "completed_at":"2014-06-29T16:20:12Z",
+    "resource_id":12345,
+    "resource_type":"droplet",
+    "region":"nyc2"
+  }
+}
